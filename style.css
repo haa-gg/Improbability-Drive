@@ -5,6 +5,7 @@ body{
   min-height:100vh;
   font-family: 'Fondamento', cursive;
 font-size:2rem;
+background-image:url('/images/bg.jpg');
 }
 
 #randomizer{
