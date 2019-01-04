@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Fondamento');
+
+body{
+  text-align:center;
+  min-height:100vh;
+  font-family: 'Fondamento', cursive;
+font-size:2rem;
+}
+
+#randomizer{
+  background-color:red;
+  color:#fff;
+  margin-top:30px;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
