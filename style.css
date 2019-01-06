@@ -2,21 +2,20 @@
 
 /* Trendy retro font brought to you by some cool cat named Atelier Triay, more font info at: https://www.readvisions.com/marvin*/
 @font-face {
-    font-family: 'marvin_visionsbold';
-    src: url('marvinvisions-bold-webfont.woff2') format('woff2'),
-         url('marvinvisions-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'marvin_visionsbold';
+  src: url('marvinvisions-bold-webfont.woff2') format('woff2'),
+  url('marvinvisions-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body{
   text-align:center;
   font-family: 'marvin_visionsbold';
-font-size:2rem;
-background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("images/bg.jpeg") no-repeat center; 
-
-background-size:cover;
-color:#000;
+  font-size:2rem;
+  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("images/bg.jpeg") no-repeat center; 
+  background-size:cover;
+  color:#000;
 }
 
 body #randomizer{
