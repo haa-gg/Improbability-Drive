@@ -1,23 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Fondamento');
 
-body{
-  text-align:center;
-  min-height:100vh;
-  font-family: 'Fondamento', cursive;
-font-size:2rem;
-background-image:url('/images/bg.jpg');
+/* Trendy retro font brought to you by some cool cat named Atelier Triay, more font info at: https://www.readvisions.com/marvin*/
+@font-face {
+    font-family: 'marvin_visionsbold';
+    src: url('marvinvisions-bold-webfont.woff2') format('woff2'),
+         url('marvinvisions-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-#randomizer{
+body{
+  text-align:center;
+  font-family: 'marvin_visionsbold';
+font-size:2rem;
+background-size:cover;
+color:#000;
+}
+
+body #randomizer{
   background-color:red;
   color:#fff;
   margin-top:30px;
+  font-family: 'Fondamento', cursive;
+}
+
+.effect{
+  letter-spacing:.25rem;
 }
 
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
-
   display: flex;
   align-items: center;
+  position:relative;
+}
+
+.foot{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  text-align:center;
+  font-size:1rem;
 }

@@ -1,18 +1,21 @@
+//Binds our spell laid out below to the arcane phrase "randomMagic()"
 function randomMagic() {
 
-  //Make a call to the mighty Google Sheets API and pray for a response
-  /*The way this call works is really cool! You can check out the details of what each bit of the URL-thing below is doing at: https://developers.google.com/sheets/api/guides/concepts */
-  //If you're expecting lots of calls, it might be better to swap from Sheets API to a git-hosted JSON file
-  var json = $.getJSON("https://sheets.googleapis.com/v4/spreadsheets/1jZmvp6Dx-DLDv03pRMgKGixmWEsqEBJD1HSP5uAF38Y/values/'Sheet1'/?key=AIzaSyA1T4CcA8nnxMfxShN7Blrinr9y7LL5CzY", function(json) {
+  //Conjure our arcane table of improbability from the eldrich planes of Git Hub
+  var json = $.getJSON("https://raw.githubusercontent.com/haa-gg/Improbability-Drive/master/table.json", function(json) {
 
+//Look over our recently summoned table of magical events and bind the total number to a variable
     var magicalArrayLength = json.values.length;
 
+//Take the bound number representing the the total number of possible outcomes from our meddling with fate itself and pick a random possibility
     var variableDice = Math.floor(Math.random()*magicalArrayLength);
-//console.log(variableDice);
-//console.log(json.values[variableDice][0]);
+
+//Make the selected outcome pop up on the screen, thus permanently altering the destiny of your party
 $(".effect").text(json.values[variableDice][0]);
 })
 }
+
+//Tells the spell to treat clicking our big friendly button the same as uttering the incantation of "randomMagic()"
  $( "#randomizer" ).click(function() {
  randomMagic();
    });
