@@ -19,7 +19,7 @@ var URLS = [
   `${GHPATH}/custom.js`,
   `${GHPATH}/table.json`,
   `${GHPATH}/images/bg.jpeg`,
-   `${GHPATH}/images/icon-web.png`,
+   `${GHPATH}/images/dice.svg`,
   `${GHPATH}/marvinvisions-bold-webfont.woff`,
   `${GHPATH}/marvinvisions-bold-webfont.woff2`,
 ]
