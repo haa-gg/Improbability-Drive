@@ -16,6 +16,7 @@
           "src": "/Improbability-Drive/images/dice.svg",
           "type": "image/svg+xml",
           "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
+          "backgroundColor": "#292c2e",
           "purpose": "any"
         }
     ]
