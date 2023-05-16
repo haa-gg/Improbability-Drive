@@ -1,0 +1,29 @@
+{
+    // Name of the app and short name in case there isn't enough space
+    "name": "Imporbability Drive",
+    "short_name": "IMPD",
+    // Description what your app is
+    "description": "10,000 random magical effects",
+  
+    // Scope and start URL - these need to change to yours
+    "scope": "/Improbability-Drive/",
+    "start_url": "/Improbability-Drive/",
+  
+    // colours of the app as displayed in the installer
+    "background_color": "#292c2e",
+    "theme_color": "#ffffff",
+  
+    // Display of the app. 
+    //This could be "standalone", "fullscreen", "minimal-ui" or "browser"
+    "display": "standalone", 
+    
+    // The possible icons to display. Make sure to change the src URL,
+    // the type and the size to your needs. If the size isn't correct, 
+    // you may not be able to install the app. 
+    "icons": [
+        {
+          "src": "/Improbability-Drive/images/icon-web.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+    ]
